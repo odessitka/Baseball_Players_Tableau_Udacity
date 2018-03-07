@@ -1,0 +1,7 @@
+﻿Data Set Description
+
+
+Udacity dataset ‘baseball_data.csv‘ was used for this project.
+This dataset initially contained 1,157 baseball players. After the first look at the numbers and making histograms to see distributions of values I noticed, that there were 266 players with Avg = 0. It is difficult for a player to have this score if he was playing. It is even more difficult to have 23% of players to play that bad.
+I came to conclusion that these players most probably were not playing. So I decided to delete their records from the database, because they do not represent the real performance of these players and will bring us to wrong results.
+New database without these players is named ‘baseball_data_new.csv’ and it contains 891 baseball players.
